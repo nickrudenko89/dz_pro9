@@ -8,9 +8,7 @@ import java.util.Random;
 @Component
 public class TextGenerator {
 
-    //@Resource(name = "randomLatinWord")
-    //@Resource(name = "randomCyrillicWord")
-    @Resource(name = "randomNumberWord")
+    @Resource(name = "randomWord")
     private RandomWordImpl randomWord;
 
     public String generateText() {
